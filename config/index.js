@@ -8,6 +8,6 @@ export default {
   },
   database: {
     uri: process.env.DB_URI || 'mongodb://localhost',
-    name: process.env.DB_NAME || 'test',
+    name: process.env.DB_NAME || 'ejercicios',
   },
 };

@@ -1,5 +1,5 @@
 import mongoose from 'mongoose';
-import config from './index';
+import config from './index.js';
 
 const db = mongoose.connection;
 
